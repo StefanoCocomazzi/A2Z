@@ -18,5 +18,7 @@ function setup(){
 		var poem = cutUp(words,plength);
 		var p=select("#poem");
 		p.html(poem);
+		select("#poemtitle").html("Your Poem");
+		button.html("Cut-Up Again");
 	});
 }
