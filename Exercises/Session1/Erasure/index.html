@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+		<script language="javascript" type="text/javascript" src="p5.min.js"></script>
+		<script language="javascript" type="text/javascript" src="p5.dom.js"></script>
+		<script language="javascript" type="text/javascript" src="sketch.js"></script>
+		<style>
+			.hidden{
+				color:rgba(0,0,0,0.1);
+			}
+			span{
+				margin-left:5px;
+				color:#000;
+			}
+			span:hover{
+				cursor:pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container" style="padding:15px;">
+			<h1>The Erasure Machine</h1>
+			<h3>By Stefano Cocomazzi</h3>
+			<p>
+				Erasure is a form of found poetry or found art created by erasing words from an existing text in prose or verse and framing the result on the page as a poem.[
+				Read the article on <a href="https://en.wikipedia.org/wiki/Erasure_(artform)" target="_blank">Wikipedia</a>
+			</p>
+			<h4>Instructions:</h4>
+			<ol>
+				<li>Type or Copy some text below</li>
+				<li>Press The Button Send</li>
+				<li>CLick on words to erase them</li>
+				<li>Congratulations! Now you are a poet</li>
+			</ol>
+			<div class="row"><div class="col-md-6"><textarea id="usertext" style="width:100%;height:200px"></textarea></div></div>
+			<br/>
+			<div class="row"><div class="col-md-6"><button class="btn btn-success btn-block" id="done">Done</button></div></div>
+			</br>
+			<div class="row"><div class="col-md-6"><h3>Your Poem</h3><p id="poem" style="min-height:200px"></p></div></div>
+		</div>	
+	</body>
+</html>
