@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+		<script language="javascript" type="text/javascript" src="p5.min.js"></script>
+		<script language="javascript" type="text/javascript" src="p5.dom.js"></script>
+		<script language="javascript" type="text/javascript" src="sketch.js"></script>
+	</head>
+	<body>
+		<div class="container" style="padding:15px;">
+			<h1>Word Interactor</h1>
+			<h3>By Stefano Cocomazzi</h3>
+			<p>
+				This is an exercise with Regular Expressions.
+			</p>
+			<h4>Instructions:</h4>
+			<ol>
+				<li>Type or Copy some text below</li>
+				<li>Submit</li>
+				<li>Interact</li>
+			</ol>
+			<div class="row"><div class="col-md-6"><textarea id="usertext" style="width:100%;height:200px">
+An Internet meme (/miːm/ meem) is an activity, concept, catchphrase or piece of media which spreads, often as mimicry, from person to person via the Internet.[1] Some notable examples include posting a photo of people lying down in public places (called "planking") and uploading a short video of people dancing to the Harlem Shake.
+
+A meme is "an idea, behavior, or style that spreads from person to person within a culture".[2] An Internet meme may take the form of an image (typically an image macro), hyperlink, video, website, or hashtag. It may be just a word or phrase, including an intentional misspelling. These small movements tend to spread from person to person via social networks, blogs, direct email, or news sources. They may relate to various existing Internet cultures or subcultures, often created or spread on various websites, or by Usenet boards and other such early-internet communications facilities. Fads and sensations tend to grow rapidly on the Internet, because the instant communication facilitates word-of-mouth transmission.
+
+The word meme was coined by Richard Dawkins in his 1976 book The Selfish Gene, as an attempt to explain the way cultural information spreads;[3] Internet memes are a subset of this general meme concept specific to the culture and environment of the Internet. The concept of the Internet meme was first proposed by Mike Godwin in the June 1993 issue of Wired. In 2013 Dawkins characterized an Internet meme as being a meme deliberately altered by human creativity—distinguished from biological genes and Dawkins' pre-Internet concept of a meme which involved mutation by random change and spreading through accurate replication as in Darwinian selection.[4] Dawkins explained that Internet memes are thus a "hijacking of the original idea", the very idea of a meme having mutated and evolved in this new direction.[5] Further, Internet memes carry an additional property that ordinary memes do not—Internet memes leave a footprint in the media through which they propagate (for example, social networks) that renders them traceable and analyzable.[6]
+
+Internet memes are a subset that Susan Blackmore called temes—memes which live in technological artifacts instead of the human mind.[7]
+
+Image macros are often confused with internet memes and are often miscited as such, usually by their creators. However, there is a key distinction between the two. Primarily this distinction lies within the subject's recognizability in internet pop-culture. While such an image may display an existing meme, or in fact a macro itself may even eventually become a meme, it does not qualify as one until it reaches approximately the same level of mass recognition as required for a person to be considered a celebrity.
+			</textarea></div></div>
+			<br/>
+			<div class="row"><div class="col-md-6"><button class="btn btn-success btn-block" id="submit">Submit</button></div></div>
+			<div class="row"><div class="col-md-6" id="output"></div></div>
+		</div>	
+	</body>
+</html>
