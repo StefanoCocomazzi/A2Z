@@ -1,6 +1,6 @@
 $.ajax({
-	  url: 'http://api.open-notify.org/astros.json', 
-	  dataType: 'jsonp',
+	  url: 'json.php',
+	  dataType: 'json',
 	  success: function (data) {
 		console.log(data);
 		$("#hNumber").html(`There are <strong>${data.number}</strong> people in space right now`);
