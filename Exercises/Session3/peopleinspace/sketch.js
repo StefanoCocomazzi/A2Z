@@ -1,5 +1,5 @@
 $.ajax({
-	  url: 'https://api.open-notify.org/astros.json', 
+	  url: 'http://api.open-notify.org/astros.json', 
 	  dataType: 'jsonp',
 	  success: function (data) {
 		console.log(data);
