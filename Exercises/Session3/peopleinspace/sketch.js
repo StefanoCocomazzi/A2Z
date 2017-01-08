@@ -1,5 +1,5 @@
 $.ajax({
-	  url: 'http://stefanococom.altervista.org/jsapps/peopleinspace/index.html',
+	  url: 'http://api.open-notify.org/astros.json',
 	  dataType: 'json',
 	  success: function (data) {
 		console.log(data);
@@ -9,6 +9,7 @@ $.ajax({
 			queryName(people[i].name, people[i].craft);
 		}
 	  }
+	  
 	});
 
 function queryName(name,craft){
@@ -21,4 +22,6 @@ function queryName(name,craft){
 	  },
 	});
 }
+
+
 
