@@ -1,5 +1,5 @@
 $.ajax({
-	  url: 'json.php',
+	  url: 'http://stefanococom.altervista.org/jsapps/peopleinspace/index.html',
 	  dataType: 'json',
 	  success: function (data) {
 		console.log(data);
